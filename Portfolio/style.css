@@ -1,0 +1,54 @@
+/*
+Theme Name: Portfolio
+Author: Thomas Yancy
+Author URI: http://google.com
+Description: 
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: Black
+*/
+
+body {
+	font-family: 'Roboto', sans-serif;
+	background-color: #f2f2f2;
+}
+.header-title {
+	background-color: white;
+}
+.header-title h1{
+	padding: 40px 0;
+	text-align: center;
+}
+.menu a {
+	color: white;
+}
+#menu-main-menu > li > a:hover, #menu-footer-menu > li > a:hover {
+	color: #4ac6dd;
+	background-color: #dd614a;
+}
+
+.centered-pills { 
+	text-align:center; 
+	background-color: #dd614a;
+}
+.centered-pills ul.nav-pills { 
+	display:inline-block; 
+}
+.centered-pills li { 
+	display:inline; 
+	padding-bottom: 5px;
+}
+.centered-pills a { 
+	float:left; 
+}
+.super-list {
+	text-align: center;
+}
+.center {
+	text-align: center;
+}
+.list-centered {
+	margin-left: 8.33333333333%;
+	margin-right: 8.33333333333%;
+}
